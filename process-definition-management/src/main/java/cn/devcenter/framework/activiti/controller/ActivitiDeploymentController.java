@@ -1,7 +1,7 @@
 package cn.devcenter.framework.activiti.controller;
 
-import cn.housecenter.dlfc.framework.starter.web.annotation.RestController;
-import cn.housecenter.dlfc.framework.web.core.AjaxResult;
+import cn.devcenter.framework.starter.web.annotation.RestController;
+import cn.devcenter.model.result.AjaxResult;
 import lombok.extern.slf4j.Slf4j;
 import org.activiti.engine.ProcessEngine;
 import org.activiti.engine.repository.Deployment;

@@ -1,14 +1,13 @@
 package cn.devcenter.framework.activiti;
 
-import cn.housecenter.dlfc.framework.starter.web.webcontainer.JettyContainer;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.SpringCloudApplication;
 import org.springframework.context.ApplicationContext;
 
-@SpringBootApplication
+@SpringCloudApplication
 @Slf4j
-public class ActivitiManagementApplication extends JettyContainer {
+public class ActivitiManagementApplication {
 
     public static void main(String[] args) {
         ApplicationContext applicationContext = SpringApplication.run(ActivitiManagementApplication.class, args);
